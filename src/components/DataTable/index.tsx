@@ -121,7 +121,7 @@ export function DataTable({ data }: DataTableProps) {
     getSortedRowModel: getSortedRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getPaginationRowModel: getPaginationRowModel(),
-    globalFilterFn: (row, columnId, filterValue) => {
+    globalFilterFn: (row, filterValue) => {
       const searchValue = filterValue.toLowerCase();
       return Object.values(row.original)
         .join(' ')

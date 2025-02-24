@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Card, CardHeader, CardContent } from './ui/card';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
+import { Card, CardHeader, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import { FilterPreset } from '@/types/data';
 import { savePreset, loadPreset, deletePreset } from '@/store/filterSlice';
 import { RootState } from '@/store';
@@ -47,7 +47,7 @@ export const FilterPresets = () => {
         <div className="flex gap-2">
           <Input
             value={newPresetName}
-            onChange={(e) => setNewPresetName(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setNewPresetName(e.target.value)}
             placeholder="New preset name"
           />
           <Button onClick={handleSavePreset}>Save Current</Button>

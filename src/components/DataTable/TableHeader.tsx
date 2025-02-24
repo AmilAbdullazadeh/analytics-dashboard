@@ -13,11 +13,13 @@ export function TableHeader({ table }: TableHeaderProps) {
       {table.getHeaderGroups().map((headerGroup) => (
         <tr key={headerGroup.id}>
           {headerGroup.headers.map((header) => (
+            
             <th
               key={header.id}
               scope="col"
               className="h-12 px-4 text-left align-middle font-medium text-gray-500"
-              aria-sort={header.column.getIsSorted() || 'none'}
+              aria-sort={header.column.getIsSorted() === 'asc' ? 'ascending' : 
+                        header.column.getIsSorted() === 'desc' ? 'descending' : 'none'}
             >
               {header.isPlaceholder ? null : (
                 <Button
