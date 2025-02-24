@@ -1,0 +1,72 @@
+{
+  "auth": {
+    "login": "Daxil ol",
+    "email": "Email",
+    "password": "Şifrə",
+    "emailPlaceholder": "Email daxil edin",
+    "passwordPlaceholder": "Şifrəni daxil edin",
+    "invalidCredentials": "Yanlış məlumatlar. Yenidən cəhd edin.",
+    "unexpectedError": "Gözlənilməz xəta baş verdi",
+    "signingIn": "Daxil olunur...",
+    "signInMessage": "Hesabınıza daxil olun",
+    "title": "Analitika Paneli",
+    "description": "Təkmil filtrasiya və vizualizasiya ilə Analitika Paneli"
+  },
+  "navigation": {
+    "dashboard": "İdarəetmə Paneli",
+    "settings": "Tənzimləmələr",
+    "logout": "Çıxış"
+  },
+  "welcome": "Xoş gəldiniz, {{name}}",
+  "errors": {
+    "required": "Bu sahə məcburidir",
+    "invalidEmail": "Yanlış email formatı",
+    "minPassword": "Şifrə ən azı {{min}} simvol olmalıdır"
+  },
+  "dashboard": {
+    "metrics": {
+      "totalUsers": "Ümumi İstifadəçilər",
+      "averageValue": "Orta Dəyər",
+      "activeRegions": "Aktiv Bölgələr",
+      "statusDistribution": "Status Paylanması"
+    },
+    "filters": {
+      "title": "Filtrlər",
+      "active": "Aktiv",
+      "clear": "Filtrləri Təmizlə",
+      "apply": "Filtrləri Tətbiq Et",
+      "search": "Axtar",    
+      "searchPlaceholder": "Ad və ya yer üçün axtar",
+      "allStatuses": "Hamısı",
+      "gpsCode": "GPS Kodu",
+      "gpsCodePlaceholder": "GPS kodu daxil edin",
+      "reset": "Filtrləri Təmizlə",
+      "dateRange": "Tarix Aralığı",
+      "ageRange": "Yaş Aralığı",
+      "status": {
+        "title": "Status",
+        "all": "Hamısı",
+        "active": "Aktiv",
+        "inactive": "Qeyri-aktiv",
+        "pending": "Gözləmədə"
+      },
+      "date": {
+        "title": "Tarix Aralığı",
+        "start": "Başlanğıc Tarixi",
+        "end": "Bitmə Tarixi",
+        "last7days": "Son 7 Gün",
+        "last30days": "Son 30 Gün",
+        "thisMonth": "Bu Ay",
+        "custom": "Xüsusi Aralıq"
+      }
+    },
+    "table": {
+      "noData": "Məlumat tapılmadı",
+      "loading": "Məlumatlar yüklənir...",
+      "rowsPerPage": "Səhifə başına sətir",
+      "of": "-dan/dən",
+      "nextPage": "Növbəti səhifə",
+      "previousPage": "Əvvəlki səhifə"
+    }
+  }
+} 

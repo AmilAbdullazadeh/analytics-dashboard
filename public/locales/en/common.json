@@ -1,0 +1,72 @@
+{
+  "auth": {
+    "login": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password",
+    "invalidCredentials": "Invalid credentials. Please try again.",
+    "unexpectedError": "An unexpected error occurred",
+    "signingIn": "Signing in...",
+    "signInMessage": "Sign in to your account",
+    "title": "Analytics Dashboard",
+    "description": "Analytics Dashboard with advanced filtering and visualization"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "welcome": "Welcome, {{name}}",
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email format",
+    "minPassword": "Password must be at least {{min}} characters"
+  },
+  "dashboard": {
+    "metrics": {
+      "totalUsers": "Total Users",
+      "averageValue": "Average Value",
+      "activeRegions": "Active Regions",
+      "statusDistribution": "Status Distribution"
+    },
+    "filters": {
+      "title": "Filters",
+      "active": "Active",
+      "clear": "Clear Filters",
+      "apply": "Apply Filters",
+      "search": "Search",
+      "searchPlaceholder": "Search by name or location...",
+      "allStatuses": "All Statuses",
+      "gpsCode": "GPS Code",
+      "gpsCodePlaceholder": "Enter GPS code...",
+      "reset": "Reset Filters",
+      "dateRange": "Date Range",
+      "ageRange": "Age Range",
+      "status": {
+        "title": "Status",
+        "all": "All",
+        "active": "Active",
+        "inactive": "Inactive",
+        "pending": "Pending"
+      },
+      "date": {
+        "title": "Date Range",
+        "start": "Start Date",
+        "end": "End Date",
+        "last7days": "Last 7 Days",
+        "last30days": "Last 30 Days",
+        "thisMonth": "This Month",
+        "custom": "Custom Range"
+      }
+    },
+    "table": {
+      "noData": "No data available",
+      "loading": "Loading data...",
+      "rowsPerPage": "Rows per page",
+      "of": "of",
+      "nextPage": "Next page",
+      "previousPage": "Previous page"
+    }
+  }
+} 
